@@ -1,0 +1,129 @@
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 450;
+    font-size: 40px;
+    color: black;
+  }
+
+
+#Skills-tile, #project-tile, #about-tile{
+    height: 250px;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;
+    border: 1px solid #523924;
+    overflow: hidden;
+}
+
+#Skills-tile:hover, #project-tile:hover, #about-tile:hover{
+    box-shadow: 0 1px 5px 1px #d4c8c8;
+}
+
+#Skills-tile{
+    background-image: url('img7.jpg');
+    
+    background-position: center;
+   
+}
+
+#project-tile{
+   background-image: url('img5.jpg'); 
+   background-position: center;
+   
+}
+#about-tile{
+    background-image: url('img6.jpg'); 
+    background-position: center;
+     
+}
+#Skills-tile span, #project-tile span, #about-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+opacity: .6;
+}
+
+
+#about-row{
+    color: #000;
+    padding-top: 25px;
+   
+}
+
+
+
+
+
+
+
+
+
+#skills {
+  
+opacity: .9;
+}
+ 
+#contact{
+    color: #000;
+    padding-top: 35px;
+    font-weight: 400;
+}
+
+hr.divider {
+    border-top: 3px solid rgb(75, 72, 72);
+    width: 20%;
+    margin: auto;
+    
+}
+
+
+#skills-img{
+ padding-left: 200px;
+   
+}
+
+
+
+
+
+/************media queries ***********/
+@media (min-widht: 1200px) {
+
+}
+
+@media (min-widht: 992px) and (max-width: 1199px){
+     /*.left{
+    font-size: 18px;
+
+    }
+   .mid{
+
+    }
+    .right{
+
+    }*/
+}
+@media (min-widht: 768px) and (max-width: 991px){
+   /* .left{
+    
+    }
+    .mid{
+
+    }
+    .right{
+
+    }*/
+
+}
